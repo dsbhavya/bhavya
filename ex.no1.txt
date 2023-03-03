@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Weather Information System</title>
+    </head>
+<body>
+
+
+<label>Temperature</label><br><br>
+<input type="text" placeholder="degree celcius" required><br><br>
+<label>District</label><br><br>
+<select id="place" name="place" required>
+<option value="CSE">Chennai</option>
+<option value="IT">mumbai</option>
+<option value="ECE">delhi</option>
+<option value="EEE">Bengaluru</option>
+
+<option value="CHEM">Kolkata</option></select><br><br>
+
+<label>Humidity</label><br><br>
+<input type="humidity" placeholder="humidity" required><br><br>
+<label>Wind Speed</label><br><br>
+<label>Pressure</label><br><br>
+<label>Dew Point</label><br><br>
+<label>Weather's Period</label><br><br>
+<input type="date"><br><br>
+<input type="radio" id="AM" name="fav_language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="PM" name="fav_language" value="CSS">
+<label for="css">CSS</label><br>
+<button type="submit" class="login" value="submit">  Submit </button>
+</body>
+</html>
+
